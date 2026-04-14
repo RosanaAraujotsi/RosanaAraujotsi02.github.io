@@ -1,0 +1,144 @@
+/* Tema Claro */
+:root {
+ --primary-color: #fcf9f8;
+  --secondary-color: #3b82f6;
+  --dark-bg: #a7faee;
+  --light-bg: #020712;
+  --white: #ffffff;
+  --text-dark: #08043d;
+  --border-color: #cbd5e1;
+  --hover-color: rgb(19, 2, 63);
+  --card-bg: #33cbc3;
+  --card-shadow: #2d2d2e;
+  --input-bg: #ffffff;
+  --input-border: #dd3bf6;
+  --button-bg: #e5e7ed;
+  --button-text: #ffffff;
+  --footer-bg: #14b1aa;
+  --header-bg: #0b6c67;
+  --nav-text: #fdfbfd;
+  --img-border: #f7f6f5;
+  --hover-shadow: rgba(0, 0, 0, 0.12);
+}
+
+  /* Tema Escuro */
+.dark-theme {
+--primary-color: #1e293b;
+  --secondary-color: #051444;
+  --dark-bg: #06021a;
+  --light-bg: #f8fafc;
+  --white: #fdfdfe;
+  --text-dark: #ffffff;
+  --border-color: #1e293b;
+  --hover-color: rgb(9, 194, 250);
+  --card-bg: #250743;
+  --card-shadow: #7f149c;
+  --input-bg: #0f172a;
+  --input-border: #093ac2;
+  --button-bg: #0c0123;
+  --button-text: #eff1f6;
+  --footer-bg: #0b042b;
+  --header-bg: #0b042b;
+  --nav-text: #ffffff;
+  --img-border: #f7f6f5;
+  --hover-shadow: rgba(255, 255, 255, 0.08);
+}
+
+/* Margens da página */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/*Corpo do Site*/
+body {
+  font-family: 'Segoe UI', Poppins, Arial, sans-serif;
+  line-height: 1.6;
+  background-color: var(--dark-bg);
+  color: var(--text-dark);
+}
+
+/*Botão Tema*/
+#btn-tema {
+  background: var(--secondary-color);
+  color: #34f105;
+  border: none;
+  padding: 5px 12px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+/*Animação Botão Tema*/
+#btn-tema:hover {
+  background: var(--hover-color);
+  transform: scale(1.05);
+  color: rgb(247, 20, 126);
+}
+
+/*Imagem Sobre*/
+#sobre img {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  border: 4px solid #ffffff;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+ 
+/*Paragrafo Sobre*/
+#sobre p {
+  text-align: justify;
+}
+
+/*Id Sobre*/
+#sobre {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  text-align: center;
+}
+ 
+/*Botões Inicio,sobre, meus projetos e contato*/
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+}
+
+/*Links Navegadores*/
+nav a {
+  text-decoration: none;
+  color: var(--nav-text);
+  font-weight: 400;
+  gap: 25px;
+  padding-bottom: 15px;
+}
+
+/*Cores ao passar mouse sobre o link*/
+a:hover {
+  color: var(--hover-color);
+}
+ 
+ nav ul {
+    flex-direction: row;
+    gap: 12px;
+  }
+
+  #sobre {
+    flex-direction: row;
+    text-align: center;
+  }
+
+  #sobre p {
+    text-align: center;
+  }

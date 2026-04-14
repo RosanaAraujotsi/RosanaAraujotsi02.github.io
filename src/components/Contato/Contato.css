@@ -1,0 +1,115 @@
+/*Stilos Rosana Araujo*/
+
+/* Tema Claro */
+:root {
+  --primary-color: #fcf9f8;
+  --secondary-color: #3b82f6;
+  --dark-bg: #a7faee;
+  --light-bg: #020712;
+  --white: #ffffff;
+  --text-dark: #08043d;
+  --border-color: #cbd5e1;
+  --hover-color: rgb(19, 2, 63);
+  --card-bg: #33cbc3;
+  --card-shadow: #2d2d2e;
+  --input-bg: #ffffff;
+  --input-border: #dd3bf6;
+  --button-bg: #e5e7ed;
+  --button-text: #ffffff;
+  --footer-bg: #14b1aa;
+  --header-bg: #0b6c67;
+  --nav-text: #fdfbfd;
+  --img-border: #f7f6f5;
+  --hover-shadow: rgba(0, 0, 0, 0.12);
+}
+
+/* Tema Escuro */
+body.dark-theme {
+  --primary-color: #1e293b;
+  --secondary-color: #051444;
+  --dark-bg: #06021a;
+  --light-bg: #f8fafc;
+  --white: #fdfdfe;
+  --text-dark: #ffffff;
+  --border-color: #1e293b;
+  --hover-color: rgb(9, 194, 250);
+  --card-bg: #250743;
+  --card-shadow: #7f149c;
+  --input-bg: #0f172a;
+  --input-border: #093ac2;
+  --button-bg: #0c0123;
+  --button-text: #eff1f6;
+  --footer-bg: #0b042b;
+  --header-bg: #0b042b;
+  --nav-text: #ffffff;
+  --img-border: #f7f6f5;
+  --hover-shadow: rgba(255, 255, 255, 0.08);
+}
+
+/* Margens da página */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/*Botão Tema*/
+#btn-tema {
+  background: var(--secondary-color);
+  color: #34f105;
+  border: none;
+  padding: 5px 12px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+/*Animação Botão Tema*/
+#btn-tema:hover {
+  background: var(--hover-color);
+  transform: scale(1.05);
+  color: rgb(247, 20, 126);
+}
+
+/*Id Contato*/
+#contato {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/*H2 Contato*/
+#contato h2 {
+  text-align: left;
+}
+
+/*Imagens Contato*/
+#contato img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+/*texto Contato*/
+#contato p {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 5px;
+}
+
+/*Links Contato*/
+
+#contato {
+  color: var(--text-dark);
+}
+
+#contato a {
+  color: inherit;
+}
